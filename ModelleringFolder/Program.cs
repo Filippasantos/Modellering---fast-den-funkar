@@ -54,13 +54,13 @@ namespace Modellering
 
             Random random = new Random();
 
-            p1.speed = random.Next(1, 40);
-            p2.speed = random.Next(1, 40);
-            p3.speed = random.Next(1, 40);
+            p1.speed = random.Next(1, 100);
+            p2.speed = random.Next(1, 100);
+            p3.speed = random.Next(1, 100);
 
-            p4.speed = random.Next(1, 40);
-            p5.speed = random.Next(1, 40);
-            p6.speed = random.Next(1, 40);
+            p4.speed = random.Next(1, 100);
+            p5.speed = random.Next(1, 100);
+            p6.speed = random.Next(1, 100);
 
             System.Console.WriteLine("The fastest player has the ball!");
             Console.ReadLine();
